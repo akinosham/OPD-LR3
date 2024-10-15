@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Калькулятор тригонометрических функций</title>
+</head>
+<body>
+    <h1>Калькулятор тригонометрических функций</h1>
+    <form method="post">
+        <label for="value">Введите значение:</label>
+        <input type="number" step="any" name="value" required><br><br>
+
+        <label for="func">Введите функцию:</label>
+        <select name="func">
+            <option value="sin">Синус</option>
+            <option value="cos">Косинус</option>
+            <option value="tan">Тангенс</option>
+            <option value="ctan">Котангенс</option>
+        </select><br><br>
+
+        <label for="precision">Выберите точность:</label>
+        <select name="precision">
+            <option value="degrees">Градусы</option>
+            <option value="radians">Радианы</option>
+        </select><br><br>
+
+        <input type="submit" value="Рассчитать">
+    </form>
+</body>
+</html>
